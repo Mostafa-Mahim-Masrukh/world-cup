@@ -262,13 +262,99 @@ footer h1 {
 
 
 
+/* mobile phone view */
+
+
+
+@media only screen and (max-width: 765px) {
+
+
+
+    .container {
+        margin: 0px 10px;
+    }
+
+    .banner {
+        background-color: black;
+        display: flex;
+        border-radius: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-image {
+        margin-top: 20px;
+    }
+
+    .banner-text h1 {
+        color: white;
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    .banner-image img {
+
+        width: 100%;
+    }
+
+    .body-part-website {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: revert;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .article {
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .aside-button {
+        background: white;
+        margin-top: 50px;
+        /* padding: 4px; */
+        /* width: 59%; */
+        border-radius: 30px;
+        margin: auto;
+        /* margin-top: 50px; */
+        margin: 20px;
+        margin-left: 55px;
+    }
+
+    .footer-under-text {
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 125px;
+        text-align: center;
+    }
+
+    .all-matches {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+
 
 
 /* .....................
 ........................media-query.. */
-
+/* 
 /* # Tablet */
-@media only screen and (max-width:801px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
 
 
@@ -321,8 +407,10 @@ footer h1 {
         grid-template-columns: repeat(2, 1fr);
     }
 
-
-
-
+    .all-matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
 
 }

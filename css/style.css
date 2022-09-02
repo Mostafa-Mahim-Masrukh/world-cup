@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 140px;
+}
+
+.button {
+    background: red;
+    padding: 12px 22px;
+    border-radius: 300px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ------------
+banner-part-css-start 
+------------ */
+
+.banner {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.banner-image img {
+    width: 390px;
+}
+
+
+.banner-text {
+    width: 50%;
+}
+
+.banner-text h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.banner-text p {
+    color: #8f8f8f;
+    margin-top: 0px;
+}
+
+
+/* ------------
+banner-part-css-END 
+------------ */

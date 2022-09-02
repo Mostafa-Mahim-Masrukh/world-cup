@@ -259,3 +259,70 @@ footer h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
+
+
+
+
+/* .....................
+........................media-query.. */
+
+/* # Tablet */
+@media only screen and (max-width:801px) {
+
+
+
+    .container {
+        margin: 0px 40px;
+    }
+
+    .banner-text h1 {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+
+    .body-part-website {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .article {
+        /* margin-left: 28px; */
+        margin-top: 20px;
+        border: 1px solid darkgrey;
+        border-radius: 20px;
+        box-shadow: 4px -1px 19px grey;
+        /* padding: 10px; */
+        margin: 20px;
+    }
+
+    .aside-button {
+        background: white;
+        /* width: 33%; */
+        border-radius: 30px;
+        /* margin: auto; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0px 0px;
+        margin: 10px;
+    }
+
+
+    .aside {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+
+
+}

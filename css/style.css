@@ -1,6 +1,21 @@
 body {
+    margin: 0px 0px;
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
     margin: 0px 140px;
+}
+
+hr {
+    color: white;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+section {
+    margin-bottom: 100px;
 }
 
 .button {
@@ -15,6 +30,13 @@ body {
 /* ------------
 banner-part-css-start 
 ------------ */
+
+
+
+
+
+
+
 
 .banner {
     background-color: black;
@@ -48,3 +70,134 @@ banner-part-css-start
 /* ------------
 banner-part-css-END 
 ------------ */
+
+
+
+/* ------------
+aside-part-css-START 
+------------ */
+
+
+
+.aside {
+    min-width: 300px;
+    max-height: 400px;
+    background: black;
+    border-radius: 43px;
+}
+
+.aside-button {
+    background: white;
+    margin-top: 50px;
+    padding: 14px;
+    width: 67%;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.aside-button a {
+
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+
+
+}
+
+.aside-button.active {
+    background: red;
+}
+
+.aside-button .active a {
+    color: white;
+}
+
+
+.body-part-website {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* ------------
+aside-part-css-END 
+------------ */
+
+.articles {
+    display: grid;
+    grid-template-columns: revert;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.article {
+    margin-left: 28px;
+    margin-top: 20px;
+    border: 1px solid darkgrey;
+    border-radius: 20px;
+    box-shadow: 4px -1px 19px grey;
+}
+
+
+.post-status p {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 2px 20px;
+    border-radius: 20px;
+
+}
+
+.post-title p {
+    margin-top: 0px;
+}
+
+.post-engagements {
+    display: flex;
+
+}
+
+.comments {
+    margin-left: 30px;
+}
+
+i.fa-regular.fa-clock {
+    margin-right: 10px;
+}
+
+i.fa-regular.fa-comment {
+    margin-right: 10px;
+}
+
+.post-details {
+    margin: 0px 16px;
+}
+
+.post-image img {
+    width: 100%;
+}
+
+
+footer {
+    background-color: black;
+}
+
+
+footer h1 {
+    margin-bottom: 0px;
+
+    color: white;
+    text-align: center;
+    padding: 41px;
+    font-size: 80px;
+}
+
+.footer-under-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-under-text p {
+    font-size: 15px;
+    color: white;
+}

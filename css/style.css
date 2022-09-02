@@ -89,7 +89,7 @@ aside-part-css-START
 .aside-button {
     background: white;
     margin-top: 50px;
-    padding: 14px;
+    padding: 4px;
     width: 67%;
     border-radius: 30px;
     margin: auto;
@@ -101,9 +101,11 @@ aside-part-css-START
 
     color: black;
     text-decoration: none;
-    padding: 20px;
 
+}
 
+.aside-button p {
+    text-align: center;
 }
 
 .aside-button.active {
@@ -124,6 +126,11 @@ aside-part-css-START
 /* ------------
 aside-part-css-END 
 ------------ */
+
+
+
+/*--------------
+-------------- article-part-START */
 
 .articles {
     display: grid;
@@ -177,7 +184,14 @@ i.fa-regular.fa-comment {
     width: 100%;
 }
 
+/*--------------
+-------------- article-part-END */
 
+
+
+
+/*-----------
+-------------footer-css-START */
 footer {
     background-color: black;
 }
@@ -200,4 +214,48 @@ footer h1 {
 .footer-under-text p {
     font-size: 15px;
     color: white;
+}
+
+.social-icons p {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0px 40px;
+    font-size: 27px;
+}
+
+/*-----------
+-------------footer-css-END */
+
+
+
+
+.flags {
+    display: flex;
+}
+
+.matches {
+    border: 2px solid darkgrey;
+    padding: 21px;
+    max-height: 144px;
+}
+
+.team-1 img {
+    margin-right: 20px;
+}
+
+.team-2 img {
+    margin-left: 20px;
+}
+
+.all-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
